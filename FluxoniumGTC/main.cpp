@@ -14,41 +14,6 @@
 using namespace std;
 using namespace Eigen;
 
-void old_Example () {
-    Vector4f idle_errors {0.85,0.05,0.05,0.05};
-    Matrix<float,4,4> meas_induced_errors {
-        {0.0,0.0,0.0,0.0},
-        {0.0,0.0,0.0,0.0},
-        {0.0,0.0,0.0,0.0},
-        {0.0,0.0,0.0,0.0}};
-    float faulty_meas = 0;
-//    float t_weight_MWPM = 0;
-//    Eigen::Vector2d xz_weight_MWPM {.05,.05};
-    int n_rounds = 1;
-    int w = 7;
-    int h = 6;
-    
-    mt19937 engine;
-    engine.seed(std::random_device{}());
-//    engine.seed(12);
-    
-    XZZX_params params {
-        idle_errors,
-        meas_induced_errors,
-        faulty_meas,
-        n_rounds,
-        w,
-        h
-    };
-    XZZX_code code(params, engine);
-    cout << code.run_decode() << endl;
-    code.print_error();
-    cout << endl;
-    code.print_syndrome(0);
-    cout << endl;
-    code.print_correction();
-}
-
 int main(int argc, const char * argv[]) {
     ///////////////////////////////PARAMS
     string filename = ""; //filename to output, "" for no output file

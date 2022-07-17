@@ -30,12 +30,6 @@ void XZZX_threshold_runner::run_instance(float p, int w, int h) {
     Vector4f idle_errors;
     idle_errors.tail(3) = params.idle_errors_normalized * p;
     idle_errors[0] = 1.0 - p;
-    
-    Matrix<float,4,4> meas_induced_errors {
-        {0.0,0.0,0.0,0.0},
-        {0.0,0.0,0.0,0.0},
-        {0.0,0.0,0.0,0.0},
-        {0.0,0.0,0.0,0.0}}; // does nothing right now
     float faulty_meas = params.faulty_meas_factor * p;
     int n_rounds = 1;
     if (faulty_meas > 0) {
@@ -44,7 +38,6 @@ void XZZX_threshold_runner::run_instance(float p, int w, int h) {
 
     XZZX_params instance_params {
         idle_errors,
-        meas_induced_errors,
         faulty_meas,
         n_rounds,
         w,

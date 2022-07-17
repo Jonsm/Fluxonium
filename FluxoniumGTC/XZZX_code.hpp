@@ -15,7 +15,6 @@
 
 struct XZZX_params {
     Eigen::Vector4f idle_errors;
-    Eigen::Matrix<float, 4, 4> meas_induced_errors; //currently not implemented
     float faulty_meas;
     int n_rounds;
     int w;
