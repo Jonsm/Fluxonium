@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A255B0284E9E2D001D434C /* XZZX_code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52A255AE284E9E2D001D434C /* XZZX_code.cpp */; };
+		52BDB275280F6DCE00401073 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB274280F6DCE00401073 /* main.cpp */; };
+		52BDB2A52814BABB00401073 /* instances.inc in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2822814BABB00401073 /* instances.inc */; };
+		52BDB2A62814BABB00401073 /* MinCost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2862814BABB00401073 /* MinCost.cpp */; };
+		52BDB2A72814BABB00401073 /* PMshrink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2882814BABB00401073 /* PMshrink.cpp */; };
+		52BDB2A92814BABB00401073 /* PMduals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB28B2814BABB00401073 /* PMduals.cpp */; };
+		52BDB2AA2814BABB00401073 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB28C2814BABB00401073 /* misc.cpp */; };
+		52BDB2AC2814BABB00401073 /* PMinterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB28E2814BABB00401073 /* PMinterface.cpp */; };
+		52BDB2AD2814BABB00401073 /* PMexpand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB28F2814BABB00401073 /* PMexpand.cpp */; };
+		52BDB2AE2814BABB00401073 /* PMmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2932814BABB00401073 /* PMmain.cpp */; };
+		52BDB2AF2814BABB00401073 /* GPMinterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2952814BABB00401073 /* GPMinterface.cpp */; };
+		52BDB2B02814BABB00401073 /* GPMmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2962814BABB00401073 /* GPMmain.cpp */; };
+		52BDB2B12814BABB00401073 /* GPMinit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2972814BABB00401073 /* GPMinit.cpp */; };
+		52BDB2B22814BABB00401073 /* GPMkdtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2982814BABB00401073 /* GPMkdtree.cpp */; };
+		52BDB2B32814BABB00401073 /* PMinit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB29B2814BABB00401073 /* PMinit.cpp */; };
+		52BDB2B42814BABB00401073 /* PMrepair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB29C2814BABB00401073 /* PMrepair.cpp */; };
+		52EAD94B2873A7340038E5FF /* threshold_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD9492873A7340038E5FF /* threshold_runner.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52BDB26F280F6DCE00401073 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		52A255AE284E9E2D001D434C /* XZZX_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XZZX_code.cpp; sourceTree = "<group>"; };
+		52A255AF284E9E2D001D434C /* XZZX_code.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = XZZX_code.hpp; sourceTree = "<group>"; };
+		52BDB271280F6DCE00401073 /* FluxoniumGTC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FluxoniumGTC; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDB274280F6DCE00401073 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52BDB2822814BABB00401073 /* instances.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = instances.inc; sourceTree = "<group>"; };
+		52BDB2832814BABB00401073 /* MinCost.cpp.orig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MinCost.cpp.orig; sourceTree = "<group>"; };
+		52BDB2842814BABB00401073 /* MinCost.cpp.rej */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MinCost.cpp.rej; sourceTree = "<group>"; };
+		52BDB2852814BABB00401073 /* MinCost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinCost.h; sourceTree = "<group>"; };
+		52BDB2862814BABB00401073 /* MinCost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinCost.cpp; sourceTree = "<group>"; };
+		52BDB2872814BABB00401073 /* p */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p; sourceTree = "<group>"; };
+		52BDB2882814BABB00401073 /* PMshrink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMshrink.cpp; sourceTree = "<group>"; };
+		52BDB28A2814BABB00401073 /* PQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQ.h; sourceTree = "<group>"; };
+		52BDB28B2814BABB00401073 /* PMduals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMduals.cpp; sourceTree = "<group>"; };
+		52BDB28C2814BABB00401073 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		52BDB28E2814BABB00401073 /* PMinterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMinterface.cpp; sourceTree = "<group>"; };
+		52BDB28F2814BABB00401073 /* PMexpand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMexpand.cpp; sourceTree = "<group>"; };
+		52BDB2902814BABB00401073 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		52BDB2912814BABB00401073 /* LCA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCA.h; sourceTree = "<group>"; };
+		52BDB2922814BABB00401073 /* CHANGES.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES.TXT; sourceTree = "<group>"; };
+		52BDB2932814BABB00401073 /* PMmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMmain.cpp; sourceTree = "<group>"; };
+		52BDB2952814BABB00401073 /* GPMinterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPMinterface.cpp; sourceTree = "<group>"; };
+		52BDB2962814BABB00401073 /* GPMmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPMmain.cpp; sourceTree = "<group>"; };
+		52BDB2972814BABB00401073 /* GPMinit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPMinit.cpp; sourceTree = "<group>"; };
+		52BDB2982814BABB00401073 /* GPMkdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPMkdtree.cpp; sourceTree = "<group>"; };
+		52BDB2992814BABB00401073 /* GPMkdtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMkdtree.h; sourceTree = "<group>"; };
+		52BDB29A2814BABB00401073 /* GeomPerfectMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomPerfectMatching.h; sourceTree = "<group>"; };
+		52BDB29B2814BABB00401073 /* PMinit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMinit.cpp; sourceTree = "<group>"; };
+		52BDB29C2814BABB00401073 /* PMrepair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMrepair.cpp; sourceTree = "<group>"; };
+		52BDB29D2814BABB00401073 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
+		52BDB29E2814BABB00401073 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		52BDB29F2814BABB00401073 /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
+		52BDB2A02814BABB00401073 /* PerfectMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectMatching.h; sourceTree = "<group>"; };
+		52BDB2A12814BABB00401073 /* PMimplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMimplementation.h; sourceTree = "<group>"; };
+		52BDB2A22814BABB00401073 /* GRAPH2.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GRAPH2.TXT; sourceTree = "<group>"; };
+		52BDB2A32814BABB00401073 /* USAGE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = USAGE.TXT; sourceTree = "<group>"; };
+		52BDB2A42814BABB00401073 /* GRAPH1.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GRAPH1.TXT; sourceTree = "<group>"; };
+		52EAD9492873A7340038E5FF /* threshold_runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threshold_runner.cpp; sourceTree = "<group>"; };
+		52EAD94A2873A7340038E5FF /* threshold_runner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = threshold_runner.hpp; sourceTree = "<group>"; };
+		52EAD94D2873B2E00038E5FF /* threshold_plotter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = threshold_plotter.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BDB26E280F6DCE00401073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BDB268280F6DCE00401073 = {
+			isa = PBXGroup;
+			children = (
+				52BDB273280F6DCE00401073 /* FluxoniumGTC */,
+				52BDB272280F6DCE00401073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BDB272280F6DCE00401073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BDB271280F6DCE00401073 /* FluxoniumGTC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BDB273280F6DCE00401073 /* FluxoniumGTC */ = {
+			isa = PBXGroup;
+			children = (
+				52A255AE284E9E2D001D434C /* XZZX_code.cpp */,
+				52A255AF284E9E2D001D434C /* XZZX_code.hpp */,
+				52EAD9492873A7340038E5FF /* threshold_runner.cpp */,
+				52EAD94A2873A7340038E5FF /* threshold_runner.hpp */,
+				52BDB274280F6DCE00401073 /* main.cpp */,
+				52EAD94C2873B26B0038E5FF /* plotting */,
+				52BDB2802814BABB00401073 /* blossom5-v2.05.src */,
+			);
+			path = FluxoniumGTC;
+			sourceTree = "<group>";
+		};
+		52BDB2802814BABB00401073 /* blossom5-v2.05.src */ = {
+			isa = PBXGroup;
+			children = (
+				52BDB2812814BABB00401073 /* MinCost */,
+				52BDB2882814BABB00401073 /* PMshrink.cpp */,
+				52BDB28A2814BABB00401073 /* PQ.h */,
+				52BDB28B2814BABB00401073 /* PMduals.cpp */,
+				52BDB28C2814BABB00401073 /* misc.cpp */,
+				52BDB28E2814BABB00401073 /* PMinterface.cpp */,
+				52BDB28F2814BABB00401073 /* PMexpand.cpp */,
+				52BDB2902814BABB00401073 /* timer.h */,
+				52BDB2912814BABB00401073 /* LCA.h */,
+				52BDB2922814BABB00401073 /* CHANGES.TXT */,
+				52BDB2932814BABB00401073 /* PMmain.cpp */,
+				52BDB2942814BABB00401073 /* GEOM */,
+				52BDB29B2814BABB00401073 /* PMinit.cpp */,
+				52BDB29C2814BABB00401073 /* PMrepair.cpp */,
+				52BDB29D2814BABB00401073 /* block.h */,
+				52BDB29E2814BABB00401073 /* README.TXT */,
+				52BDB29F2814BABB00401073 /* LICENSE.TXT */,
+				52BDB2A02814BABB00401073 /* PerfectMatching.h */,
+				52BDB2A12814BABB00401073 /* PMimplementation.h */,
+				52BDB2A22814BABB00401073 /* GRAPH2.TXT */,
+				52BDB2A32814BABB00401073 /* USAGE.TXT */,
+				52BDB2A42814BABB00401073 /* GRAPH1.TXT */,
+			);
+			path = "blossom5-v2.05.src";
+			sourceTree = "<group>";
+		};
+		52BDB2812814BABB00401073 /* MinCost */ = {
+			isa = PBXGroup;
+			children = (
+				52BDB2822814BABB00401073 /* instances.inc */,
+				52BDB2832814BABB00401073 /* MinCost.cpp.orig */,
+				52BDB2842814BABB00401073 /* MinCost.cpp.rej */,
+				52BDB2852814BABB00401073 /* MinCost.h */,
+				52BDB2862814BABB00401073 /* MinCost.cpp */,
+				52BDB2872814BABB00401073 /* p */,
+			);
+			path = MinCost;
+			sourceTree = "<group>";
+		};
+		52BDB2942814BABB00401073 /* GEOM */ = {
+			isa = PBXGroup;
+			children = (
+				52BDB2952814BABB00401073 /* GPMinterface.cpp */,
+				52BDB2962814BABB00401073 /* GPMmain.cpp */,
+				52BDB2972814BABB00401073 /* GPMinit.cpp */,
+				52BDB2982814BABB00401073 /* GPMkdtree.cpp */,
+				52BDB2992814BABB00401073 /* GPMkdtree.h */,
+				52BDB29A2814BABB00401073 /* GeomPerfectMatching.h */,
+			);
+			path = GEOM;
+			sourceTree = "<group>";
+		};
+		52EAD94C2873B26B0038E5FF /* plotting */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD94D2873B2E00038E5FF /* threshold_plotter.py */,
+			);
+			path = plotting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BDB270280F6DCE00401073 /* FluxoniumGTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDB278280F6DCE00401073 /* Build configuration list for PBXNativeTarget "FluxoniumGTC" */;
+			buildPhases = (
+				52BDB26D280F6DCE00401073 /* Sources */,
+				52BDB26E280F6DCE00401073 /* Frameworks */,
+				52BDB26F280F6DCE00401073 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluxoniumGTC;
+			productName = FluxoniumGTC;
+			productReference = 52BDB271280F6DCE00401073 /* FluxoniumGTC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BDB269280F6DCE00401073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					52BDB270280F6DCE00401073 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 52BDB26C280F6DCE00401073 /* Build configuration list for PBXProject "FluxoniumGTC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BDB268280F6DCE00401073;
+			productRefGroup = 52BDB272280F6DCE00401073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BDB270280F6DCE00401073 /* FluxoniumGTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BDB26D280F6DCE00401073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDB2B32814BABB00401073 /* PMinit.cpp in Sources */,
+				52BDB2B22814BABB00401073 /* GPMkdtree.cpp in Sources */,
+				52BDB2B42814BABB00401073 /* PMrepair.cpp in Sources */,
+				52BDB2AE2814BABB00401073 /* PMmain.cpp in Sources */,
+				52BDB2B02814BABB00401073 /* GPMmain.cpp in Sources */,
+				52EAD94B2873A7340038E5FF /* threshold_runner.cpp in Sources */,
+				52BDB2AD2814BABB00401073 /* PMexpand.cpp in Sources */,
+				52A255B0284E9E2D001D434C /* XZZX_code.cpp in Sources */,
+				52BDB2AF2814BABB00401073 /* GPMinterface.cpp in Sources */,
+				52BDB2B12814BABB00401073 /* GPMinit.cpp in Sources */,
+				52BDB2A62814BABB00401073 /* MinCost.cpp in Sources */,
+				52BDB275280F6DCE00401073 /* main.cpp in Sources */,
+				52BDB2A72814BABB00401073 /* PMshrink.cpp in Sources */,
+				52BDB2AC2814BABB00401073 /* PMinterface.cpp in Sources */,
+				52BDB2AA2814BABB00401073 /* misc.cpp in Sources */,
+				52BDB2A52814BABB00401073 /* instances.inc in Sources */,
+				52BDB2A92814BABB00401073 /* PMduals.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52BDB276280F6DCE00401073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52BDB277280F6DCE00401073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52BDB279280F6DCE00401073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+					/opt/homebrew/Cellar/boost/1.76.0/include,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BDB27A280F6DCE00401073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/opt/homebrew/Cellar/boost/1.76.0/include,
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BDB26C280F6DCE00401073 /* Build configuration list for PBXProject "FluxoniumGTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDB276280F6DCE00401073 /* Debug */,
+				52BDB277280F6DCE00401073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDB278280F6DCE00401073 /* Build configuration list for PBXNativeTarget "FluxoniumGTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDB279280F6DCE00401073 /* Debug */,
+				52BDB27A280F6DCE00401073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BDB269280F6DCE00401073 /* Project object */;
+}
