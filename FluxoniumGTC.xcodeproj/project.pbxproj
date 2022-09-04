@@ -68,6 +68,7 @@
 		5203124A28B079C40007FB76 /* GTC_threshold_runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GTC_threshold_runner.cpp; sourceTree = "<group>"; };
 		5203124B28B079C40007FB76 /* GTC_threshold_runner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GTC_threshold_runner.hpp; sourceTree = "<group>"; };
 		5203124D28B093A70007FB76 /* threshold_plotter_GTC.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = threshold_plotter_GTC.py; sourceTree = "<group>"; };
+		5213742528C45DB800C535C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52562FBB288C903D00A80831 /* GTC_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GTC_code.cpp; sourceTree = "<group>"; };
 		52562FBC288C903D00A80831 /* GTC_code.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GTC_code.hpp; sourceTree = "<group>"; };
 		525630962897530600A80831 /* spasm_gaxpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_gaxpy.c; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 		52BDB268280F6DCE00401073 = {
 			isa = PBXGroup;
 			children = (
+				5213742528C45DB800C535C9 /* README.md */,
 				52BDB273280F6DCE00401073 /* FluxoniumGTC */,
 				52BDB272280F6DCE00401073 /* Products */,
 			);
