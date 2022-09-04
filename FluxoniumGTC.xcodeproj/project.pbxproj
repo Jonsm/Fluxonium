@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5203124C28B079C40007FB76 /* GTC_threshold_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5203124A28B079C40007FB76 /* GTC_threshold_runner.cpp */; };
+		52562FBD288C903D00A80831 /* GTC_code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52562FBB288C903D00A80831 /* GTC_code.cpp */; };
+		525630B42897530600A80831 /* spasm_gaxpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630962897530600A80831 /* spasm_gaxpy.c */; };
+		525630B52897530600A80831 /* spasm_permutation.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630972897530600A80831 /* spasm_permutation.c */; };
+		525630B62897530600A80831 /* spasm_transpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630982897530600A80831 /* spasm_transpose.c */; };
+		525630B72897530600A80831 /* spasm_submatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630992897530600A80831 /* spasm_submatrix.c */; };
+		525630B82897530600A80831 /* spasm_cc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5256309A2897530600A80831 /* spasm_cc.c */; };
+		525630B92897530600A80831 /* spasm_concatenate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5256309C2897530600A80831 /* spasm_concatenate.c */; };
+		525630BA2897530600A80831 /* spasm_GFp.c in Sources */ = {isa = PBXBuildFile; fileRef = 5256309E2897530600A80831 /* spasm_GFp.c */; };
+		525630BB2897530600A80831 /* spasm_lu.c in Sources */ = {isa = PBXBuildFile; fileRef = 5256309F2897530600A80831 /* spasm_lu.c */; };
+		525630BC2897530600A80831 /* spasm_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630A02897530600A80831 /* spasm_util.c */; };
+		525630BD2897530600A80831 /* spasm_pivots.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630A12897530600A80831 /* spasm_pivots.c */; };
+		525630BE2897530600A80831 /* spasm_kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630A32897530600A80831 /* spasm_kernel.c */; };
+		525630BF2897530600A80831 /* spasm_reach.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630A42897530600A80831 /* spasm_reach.c */; };
+		525630C02897530600A80831 /* spasm_triplet.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630A62897530600A80831 /* spasm_triplet.c */; };
+		525630C12897530600A80831 /* spasm_matching.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630A72897530600A80831 /* spasm_matching.c */; };
+		525630C22897530600A80831 /* mmio.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630AA2897530600A80831 /* mmio.c */; };
+		525630C32897530600A80831 /* spasm_schur.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630AB2897530600A80831 /* spasm_schur.c */; };
+		525630C42897530600A80831 /* spasm_scatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630AC2897530600A80831 /* spasm_scatter.c */; };
+		525630C52897530600A80831 /* spasm_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630AD2897530600A80831 /* spasm_io.c */; };
+		525630C62897530600A80831 /* spasm_dense_lu.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630AE2897530600A80831 /* spasm_dense_lu.c */; };
+		525630C72897530600A80831 /* spasm_triangular.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630AF2897530600A80831 /* spasm_triangular.c */; };
+		525630C82897530600A80831 /* spasm_uetree.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630B02897530600A80831 /* spasm_uetree.c */; };
+		525630C92897530600A80831 /* spasm_scc.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630B12897530600A80831 /* spasm_scc.c */; };
+		525630CA2897530600A80831 /* spasm_solutions.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630B22897530600A80831 /* spasm_solutions.c */; };
+		525630CB2897530600A80831 /* spasm_dm.c in Sources */ = {isa = PBXBuildFile; fileRef = 525630B32897530600A80831 /* spasm_dm.c */; };
 		52A255B0284E9E2D001D434C /* XZZX_code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52A255AE284E9E2D001D434C /* XZZX_code.cpp */; };
 		52BDB275280F6DCE00401073 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB274280F6DCE00401073 /* main.cpp */; };
 		52BDB2A52814BABB00401073 /* instances.inc in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2822814BABB00401073 /* instances.inc */; };
@@ -23,7 +49,7 @@
 		52BDB2B22814BABB00401073 /* GPMkdtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB2982814BABB00401073 /* GPMkdtree.cpp */; };
 		52BDB2B32814BABB00401073 /* PMinit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB29B2814BABB00401073 /* PMinit.cpp */; };
 		52BDB2B42814BABB00401073 /* PMrepair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB29C2814BABB00401073 /* PMrepair.cpp */; };
-		52EAD94B2873A7340038E5FF /* threshold_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD9492873A7340038E5FF /* threshold_runner.cpp */; };
+		52EAD94B2873A7340038E5FF /* XZZX_threshold_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD9492873A7340038E5FF /* XZZX_threshold_runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +65,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5203124A28B079C40007FB76 /* GTC_threshold_runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GTC_threshold_runner.cpp; sourceTree = "<group>"; };
+		5203124B28B079C40007FB76 /* GTC_threshold_runner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GTC_threshold_runner.hpp; sourceTree = "<group>"; };
+		5203124D28B093A70007FB76 /* threshold_plotter_GTC.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = threshold_plotter_GTC.py; sourceTree = "<group>"; };
+		52562FBB288C903D00A80831 /* GTC_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GTC_code.cpp; sourceTree = "<group>"; };
+		52562FBC288C903D00A80831 /* GTC_code.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GTC_code.hpp; sourceTree = "<group>"; };
+		525630962897530600A80831 /* spasm_gaxpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_gaxpy.c; sourceTree = "<group>"; };
+		525630972897530600A80831 /* spasm_permutation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_permutation.c; sourceTree = "<group>"; };
+		525630982897530600A80831 /* spasm_transpose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_transpose.c; sourceTree = "<group>"; };
+		525630992897530600A80831 /* spasm_submatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_submatrix.c; sourceTree = "<group>"; };
+		5256309A2897530600A80831 /* spasm_cc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_cc.c; sourceTree = "<group>"; };
+		5256309B2897530600A80831 /* mmio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmio.h; sourceTree = "<group>"; };
+		5256309C2897530600A80831 /* spasm_concatenate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_concatenate.c; sourceTree = "<group>"; };
+		5256309D2897530600A80831 /* spasm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spasm.h; sourceTree = "<group>"; };
+		5256309E2897530600A80831 /* spasm_GFp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_GFp.c; sourceTree = "<group>"; };
+		5256309F2897530600A80831 /* spasm_lu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_lu.c; sourceTree = "<group>"; };
+		525630A02897530600A80831 /* spasm_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_util.c; sourceTree = "<group>"; };
+		525630A12897530600A80831 /* spasm_pivots.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_pivots.c; sourceTree = "<group>"; };
+		525630A22897530600A80831 /* arm_instruction_set_select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm_instruction_set_select.h; sourceTree = "<group>"; };
+		525630A32897530600A80831 /* spasm_kernel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_kernel.c; sourceTree = "<group>"; };
+		525630A42897530600A80831 /* spasm_reach.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_reach.c; sourceTree = "<group>"; };
+		525630A52897530600A80831 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		525630A62897530600A80831 /* spasm_triplet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_triplet.c; sourceTree = "<group>"; };
+		525630A72897530600A80831 /* spasm_matching.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_matching.c; sourceTree = "<group>"; };
+		525630A82897530600A80831 /* cycleclock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cycleclock.h; sourceTree = "<group>"; };
+		525630A92897530600A80831 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		525630AA2897530600A80831 /* mmio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mmio.c; sourceTree = "<group>"; };
+		525630AB2897530600A80831 /* spasm_schur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_schur.c; sourceTree = "<group>"; };
+		525630AC2897530600A80831 /* spasm_scatter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_scatter.c; sourceTree = "<group>"; };
+		525630AD2897530600A80831 /* spasm_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_io.c; sourceTree = "<group>"; };
+		525630AE2897530600A80831 /* spasm_dense_lu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_dense_lu.c; sourceTree = "<group>"; };
+		525630AF2897530600A80831 /* spasm_triangular.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_triangular.c; sourceTree = "<group>"; };
+		525630B02897530600A80831 /* spasm_uetree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_uetree.c; sourceTree = "<group>"; };
+		525630B12897530600A80831 /* spasm_scc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_scc.c; sourceTree = "<group>"; };
+		525630B22897530600A80831 /* spasm_solutions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_solutions.c; sourceTree = "<group>"; };
+		525630B32897530600A80831 /* spasm_dm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spasm_dm.c; sourceTree = "<group>"; };
+		525630CC2897536900A80831 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		52A255AE284E9E2D001D434C /* XZZX_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XZZX_code.cpp; sourceTree = "<group>"; };
 		52A255AF284E9E2D001D434C /* XZZX_code.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = XZZX_code.hpp; sourceTree = "<group>"; };
 		52BDB271280F6DCE00401073 /* FluxoniumGTC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FluxoniumGTC; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,8 +137,8 @@
 		52BDB2A22814BABB00401073 /* GRAPH2.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GRAPH2.TXT; sourceTree = "<group>"; };
 		52BDB2A32814BABB00401073 /* USAGE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = USAGE.TXT; sourceTree = "<group>"; };
 		52BDB2A42814BABB00401073 /* GRAPH1.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GRAPH1.TXT; sourceTree = "<group>"; };
-		52EAD9492873A7340038E5FF /* threshold_runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threshold_runner.cpp; sourceTree = "<group>"; };
-		52EAD94A2873A7340038E5FF /* threshold_runner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = threshold_runner.hpp; sourceTree = "<group>"; };
+		52EAD9492873A7340038E5FF /* XZZX_threshold_runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XZZX_threshold_runner.cpp; sourceTree = "<group>"; };
+		52EAD94A2873A7340038E5FF /* XZZX_threshold_runner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = XZZX_threshold_runner.hpp; sourceTree = "<group>"; };
 		52EAD94D2873B2E00038E5FF /* threshold_plotter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = threshold_plotter.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +153,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525630952897530600A80831 /* spasm.src */ = {
+			isa = PBXGroup;
+			children = (
+				525630962897530600A80831 /* spasm_gaxpy.c */,
+				525630972897530600A80831 /* spasm_permutation.c */,
+				525630982897530600A80831 /* spasm_transpose.c */,
+				525630992897530600A80831 /* spasm_submatrix.c */,
+				5256309A2897530600A80831 /* spasm_cc.c */,
+				5256309B2897530600A80831 /* mmio.h */,
+				5256309C2897530600A80831 /* spasm_concatenate.c */,
+				5256309D2897530600A80831 /* spasm.h */,
+				5256309E2897530600A80831 /* spasm_GFp.c */,
+				5256309F2897530600A80831 /* spasm_lu.c */,
+				525630A02897530600A80831 /* spasm_util.c */,
+				525630A12897530600A80831 /* spasm_pivots.c */,
+				525630CC2897536900A80831 /* config.h */,
+				525630A22897530600A80831 /* arm_instruction_set_select.h */,
+				525630A32897530600A80831 /* spasm_kernel.c */,
+				525630A42897530600A80831 /* spasm_reach.c */,
+				525630A52897530600A80831 /* Makefile.am */,
+				525630A62897530600A80831 /* spasm_triplet.c */,
+				525630A72897530600A80831 /* spasm_matching.c */,
+				525630A82897530600A80831 /* cycleclock.h */,
+				525630A92897530600A80831 /* .gitignore */,
+				525630AA2897530600A80831 /* mmio.c */,
+				525630AB2897530600A80831 /* spasm_schur.c */,
+				525630AC2897530600A80831 /* spasm_scatter.c */,
+				525630AD2897530600A80831 /* spasm_io.c */,
+				525630AE2897530600A80831 /* spasm_dense_lu.c */,
+				525630AF2897530600A80831 /* spasm_triangular.c */,
+				525630B02897530600A80831 /* spasm_uetree.c */,
+				525630B12897530600A80831 /* spasm_scc.c */,
+				525630B22897530600A80831 /* spasm_solutions.c */,
+				525630B32897530600A80831 /* spasm_dm.c */,
+			);
+			path = spasm.src;
+			sourceTree = "<group>";
+		};
 		52BDB268280F6DCE00401073 = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +210,18 @@
 		52BDB273280F6DCE00401073 /* FluxoniumGTC */ = {
 			isa = PBXGroup;
 			children = (
+				5203124A28B079C40007FB76 /* GTC_threshold_runner.cpp */,
+				5203124B28B079C40007FB76 /* GTC_threshold_runner.hpp */,
+				52562FBB288C903D00A80831 /* GTC_code.cpp */,
+				52562FBC288C903D00A80831 /* GTC_code.hpp */,
 				52A255AE284E9E2D001D434C /* XZZX_code.cpp */,
 				52A255AF284E9E2D001D434C /* XZZX_code.hpp */,
-				52EAD9492873A7340038E5FF /* threshold_runner.cpp */,
-				52EAD94A2873A7340038E5FF /* threshold_runner.hpp */,
+				52EAD9492873A7340038E5FF /* XZZX_threshold_runner.cpp */,
+				52EAD94A2873A7340038E5FF /* XZZX_threshold_runner.hpp */,
 				52BDB274280F6DCE00401073 /* main.cpp */,
-				52EAD94C2873B26B0038E5FF /* plotting */,
 				52BDB2802814BABB00401073 /* blossom5-v2.05.src */,
+				525630952897530600A80831 /* spasm.src */,
+				52EAD94C2873B26B0038E5FF /* plotting */,
 			);
 			path = FluxoniumGTC;
 			sourceTree = "<group>";
@@ -179,6 +284,7 @@
 		52EAD94C2873B26B0038E5FF /* plotting */ = {
 			isa = PBXGroup;
 			children = (
+				5203124D28B093A70007FB76 /* threshold_plotter_GTC.py */,
 				52EAD94D2873B2E00038E5FF /* threshold_plotter.py */,
 			);
 			path = plotting;
@@ -241,23 +347,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525630B82897530600A80831 /* spasm_cc.c in Sources */,
+				525630B72897530600A80831 /* spasm_submatrix.c in Sources */,
+				525630C52897530600A80831 /* spasm_io.c in Sources */,
+				525630C72897530600A80831 /* spasm_triangular.c in Sources */,
 				52BDB2B32814BABB00401073 /* PMinit.cpp in Sources */,
+				525630CB2897530600A80831 /* spasm_dm.c in Sources */,
+				525630BE2897530600A80831 /* spasm_kernel.c in Sources */,
+				525630C62897530600A80831 /* spasm_dense_lu.c in Sources */,
 				52BDB2B22814BABB00401073 /* GPMkdtree.cpp in Sources */,
+				525630C82897530600A80831 /* spasm_uetree.c in Sources */,
 				52BDB2B42814BABB00401073 /* PMrepair.cpp in Sources */,
+				525630B52897530600A80831 /* spasm_permutation.c in Sources */,
+				525630BC2897530600A80831 /* spasm_util.c in Sources */,
+				525630C02897530600A80831 /* spasm_triplet.c in Sources */,
 				52BDB2AE2814BABB00401073 /* PMmain.cpp in Sources */,
+				525630BB2897530600A80831 /* spasm_lu.c in Sources */,
 				52BDB2B02814BABB00401073 /* GPMmain.cpp in Sources */,
-				52EAD94B2873A7340038E5FF /* threshold_runner.cpp in Sources */,
+				525630C92897530600A80831 /* spasm_scc.c in Sources */,
+				52EAD94B2873A7340038E5FF /* XZZX_threshold_runner.cpp in Sources */,
+				525630BD2897530600A80831 /* spasm_pivots.c in Sources */,
 				52BDB2AD2814BABB00401073 /* PMexpand.cpp in Sources */,
+				525630C12897530600A80831 /* spasm_matching.c in Sources */,
 				52A255B0284E9E2D001D434C /* XZZX_code.cpp in Sources */,
+				525630C42897530600A80831 /* spasm_scatter.c in Sources */,
 				52BDB2AF2814BABB00401073 /* GPMinterface.cpp in Sources */,
 				52BDB2B12814BABB00401073 /* GPMinit.cpp in Sources */,
 				52BDB2A62814BABB00401073 /* MinCost.cpp in Sources */,
+				525630B62897530600A80831 /* spasm_transpose.c in Sources */,
+				525630BA2897530600A80831 /* spasm_GFp.c in Sources */,
+				525630C22897530600A80831 /* mmio.c in Sources */,
 				52BDB275280F6DCE00401073 /* main.cpp in Sources */,
+				5203124C28B079C40007FB76 /* GTC_threshold_runner.cpp in Sources */,
+				525630B42897530600A80831 /* spasm_gaxpy.c in Sources */,
+				525630CA2897530600A80831 /* spasm_solutions.c in Sources */,
 				52BDB2A72814BABB00401073 /* PMshrink.cpp in Sources */,
 				52BDB2AC2814BABB00401073 /* PMinterface.cpp in Sources */,
 				52BDB2AA2814BABB00401073 /* misc.cpp in Sources */,
+				525630B92897530600A80831 /* spasm_concatenate.c in Sources */,
 				52BDB2A52814BABB00401073 /* instances.inc in Sources */,
+				525630C32897530600A80831 /* spasm_schur.c in Sources */,
 				52BDB2A92814BABB00401073 /* PMduals.cpp in Sources */,
+				525630BF2897530600A80831 /* spasm_reach.c in Sources */,
+				52562FBD288C903D00A80831 /* GTC_code.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,12 +509,15 @@
 		52BDB279280F6DCE00401073 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 					/opt/homebrew/Cellar/boost/1.76.0/include,
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+					/usr/local/include/,
 				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -390,12 +525,15 @@
 		52BDB27A280F6DCE00401073 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/opt/homebrew/Cellar/boost/1.76.0/include,
 					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+					/usr/local/include/,
 				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

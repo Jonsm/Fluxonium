@@ -8,9 +8,11 @@
 #ifndef threshold_runner_hpp
 #define threshold_runner_hpp
 
-#include "XZZX_code.hpp"
 #include <fstream>
 #include <sstream>
+#include <random>
+#include <vector>
+#include <Eigen/Dense>
 
 struct XZZX_threshold_params {
     std::string filename;
